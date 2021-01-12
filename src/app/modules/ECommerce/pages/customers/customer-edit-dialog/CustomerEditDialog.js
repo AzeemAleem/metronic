@@ -37,6 +37,7 @@ export function CustomerEditDialog({ id, show, onHide }) {
       dispatch(actions.createCustomer(customer)).then(() => onHide());
     } else {
       // server request for updating customer
+      console.log("i am from customer", customer);
       dispatch(actions.updateCustomer(customer)).then(() => onHide());
     }
   };

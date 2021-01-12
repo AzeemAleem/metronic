@@ -15,7 +15,7 @@ export function ActionsColumnFormatter(
     <>
       <a
         title="Edit customer"
-        className="btn btn-icon btn-light btn-hover-primary btn-sm mx-3"
+        className="btn btn-icon btn-light btn-hover-primary btn-sm mx-1"
         onClick={() => openEditCustomerDialog(row.id)}
       >
         <span className="svg-icon svg-icon-md svg-icon-primary">
@@ -28,11 +28,21 @@ export function ActionsColumnFormatter(
 
       <a
         title="Delete customer"
-        className="btn btn-icon btn-light btn-hover-danger btn-sm"
+        className="btn btn-icon btn-light btn-hover-danger btn-sm mx-1"
         onClick={() => openDeleteCustomerDialog(row.id)}
       >
         <span className="svg-icon svg-icon-md svg-icon-danger">
           <SVG src={toAbsoluteUrl("/media/svg/icons/General/Trash.svg")} />
+        </span>
+      </a>
+      <> </>
+      <a
+        title="Block customer"
+        className="btn btn-icon btn-light btn-hover-danger btn-sm"
+        onClick={() => openDeleteCustomerDialog(row.id)}
+      >
+        <span className="svg-icon svg-icon-md svg-icon-danger">
+          <SVG src={toAbsoluteUrl("/media/svg/icons/General/block.svg")} />
         </span>
       </a>
     </>
