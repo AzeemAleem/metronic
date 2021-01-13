@@ -19,9 +19,9 @@ export function Demo1Dashboard() {
         <div className="col-lg-6 col-xxl-4">
           <MixedWidget1 className="card-stretch gutter-b" />
         </div>
-        <div className="col-lg-6 col-xxl-4">
+        {/* <div className="col-lg-6 col-xxl-4">
           <ListsWidget9 className="card-stretch gutter-b" />
-        </div>
+        </div> */}
 
         <div className="col-lg-6 col-xxl-4">
           <StatsWidget11
@@ -31,6 +31,7 @@ export function Demo1Dashboard() {
           />
           <StatsWidget12 className="card-stretch card-stretch-half gutter-b" />
         </div>
+        
 
         <div className="col-lg-6 col-xxl-4 order-1 order-xxl-1">
           <ListsWidget1 className="card-stretch gutter-b" />
