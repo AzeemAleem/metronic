@@ -9,7 +9,7 @@ export function StickyToolbar() {
       <ul className="sticky-toolbar nav flex-column pl-2 pr-2 pt-3 pb-3 mt-4">
         <OverlayTrigger
           placement="left"
-          overlay={<Tooltip id="layout-tooltip">Layout Builder</Tooltip>}
+          overlay={<Tooltip id="layout-tooltip">Users</Tooltip>}
         >
           <li className="nav-item mb-2" data-placement="left">
             <Link
@@ -23,7 +23,7 @@ export function StickyToolbar() {
 
         <OverlayTrigger
           placement="left"
-          overlay={<Tooltip id="documentations-tooltip">Documentation</Tooltip>}
+          overlay={<Tooltip id="documentations-tooltip">All Notifications</Tooltip>}
         >
           <li className="nav-item mb-2" data-placement="left">
             <a

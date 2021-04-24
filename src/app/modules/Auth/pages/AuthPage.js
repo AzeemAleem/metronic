@@ -39,11 +39,10 @@ export function AuthPage() {
                 {/* start:: Aside content */}
                 <div className="flex-column-fluid d-flex flex-column justify-content-center">
                   <h3 className="font-size-h1 mb-5 text-white">
-                    Welcome to Metronic!
+                    Welcome to Unidrive!
                   </h3>
                   <p className="font-weight-lighter text-white opacity-80">
-                    The ultimate Bootstrap & React 16 admin theme framework for next
-                    generation web apps.
+                    We are launcing a surprising services of its users soon.
                   </p>
                 </div>
                 {/* end:: Aside content */}
@@ -51,9 +50,9 @@ export function AuthPage() {
                 {/* start:: Aside footer for desktop */}
                 <div className="d-none flex-column-auto d-lg-flex justify-content-between mt-10">
                   <div className="opacity-70 font-weight-bold	text-white">
-                    &copy; 2020 Metronic
+                    &copy; 2020 Unidrive
                   </div>
-                  <div className="d-flex">
+                  {/* <div className="d-flex">
                     <Link to="/terms" className="text-white">
                       Privacy
                     </Link>
@@ -63,7 +62,7 @@ export function AuthPage() {
                     <Link to="/terms" className="text-white ml-10">
                       Contact
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
                 {/* end:: Aside footer for desktop */}
               </div>

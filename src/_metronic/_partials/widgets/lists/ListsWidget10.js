@@ -13,7 +13,7 @@ export function ListsWidget10({ className }) {
             Notifications
           </h3>
 
-          <div className="card-toolbar">
+          {/* <div className="card-toolbar">
             <Dropdown className="dropdown-inline" alignRight>
               <Dropdown.Toggle
                 id="dropdown-toggle-top"
@@ -25,7 +25,7 @@ export function ListsWidget10({ className }) {
                 <DropdownMenu3 />
               </Dropdown.Menu>
             </Dropdown>
-          </div>
+          </div> */}
         </div>
 
         {/* Body */}
@@ -51,9 +51,9 @@ export function ListsWidget10({ className }) {
                   </span>
                 </div>
 
-                <span className="label label-lg label-light-primary label-inline font-weight-bold py-4">
+                {/* <span className="label label-lg label-light-primary label-inline font-weight-bold py-4">
                   Approved
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
@@ -87,9 +87,9 @@ export function ListsWidget10({ className }) {
                 {/* end::Info */}
 
                 {/* begin::Label */}
-                <span className="label label-lg label-light-warning label-inline font-weight-bold py-4">
+                {/* <span className="label label-lg label-light-warning label-inline font-weight-bold py-4">
                   In Progress
-                </span>
+                </span> */}
                 {/* end::Label */}
               </div>
               {/* end::Section */}
@@ -131,9 +131,9 @@ export function ListsWidget10({ className }) {
                 {/* end::Info */}
 
                 {/* begin::Label */}
-                <span className="label label-lg label-light-success label-inline font-weight-bold py-4">
+                {/* <span className="label label-lg label-light-success label-inline font-weight-bold py-4">
                   Success
-                </span>
+                </span> */}
                 {/* end::Label */}
               </div>
               {/* end::Section */}
@@ -175,9 +175,9 @@ export function ListsWidget10({ className }) {
                 {/* end::Info */}
 
                 {/* begin::Label */}
-                <span className="label label-lg label-light-danger label-inline font-weight-bold py-4">
+                {/* <span className="label label-lg label-light-danger label-inline font-weight-bold py-4">
                   Rejected
-                </span>
+                </span> */}
                 {/* end::Label */}
               </div>
               {/* end::Section */}
@@ -219,9 +219,9 @@ export function ListsWidget10({ className }) {
                 {/* end::Info */}
 
                 {/* begin::Label */}
-                <span className="label label-lg label-light-warning label-inline font-weight-bold py-4">
+                {/* <span className="label label-lg label-light-warning label-inline font-weight-bold py-4">
                   In Progress
-                </span>
+                </span> */}
                 {/* end::Label */}
               </div>
               {/* end::Section */}

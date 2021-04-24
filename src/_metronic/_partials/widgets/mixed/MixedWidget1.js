@@ -87,7 +87,7 @@ export function MixedWidget1({ className }) {
                 ></SVG>
               </span>
               <a
-                href="#"
+                href="/e-commerce/products"
                 className="text-warning font-weight-bold font-size-h6"
               >
                 Orders
@@ -102,7 +102,7 @@ export function MixedWidget1({ className }) {
                 ></SVG>
               </span>
               <a
-                href="#"
+                href="/e-commerce/customers"
                 className="text-primary font-weight-bold font-size-h6 mt-2"
               >
                 Users

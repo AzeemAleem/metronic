@@ -12,9 +12,9 @@ export function ListsWidget14({ className }) {
         {/* begin::Header */}
         <div className="card-header border-0">
           <h3 className="card-title font-weight-bolder text-dark">
-            Market Leaders
+            User Complaints
           </h3>
-          <div className="card-toolbar">
+          {/* <div className="card-toolbar">
             <Dropdown className="dropdown-inline" alignRight>
               <Dropdown.Toggle
                 id="dropdown-toggle-top"
@@ -26,7 +26,7 @@ export function ListsWidget14({ className }) {
                 <DropdownMenu1 />{" "}
               </Dropdown.Menu>
             </Dropdown>
-          </div>
+          </div> */}
         </div>
         {/* end::Header */}
 
@@ -53,10 +53,10 @@ export function ListsWidget14({ className }) {
                 href="#"
                 className="text-dark-75 font-weight-bolder text-hover-primary font-size-lg"
               >
-                Cup & Green
+                Order Issue
               </a>
               <span className="text-muted font-weight-bold font-size-sm my-1">
-                Local, clean & environmental
+                I am unable to submit the order
               </span>
               <span className="text-muted font-weight-bold font-size-sm">
                 Created by:{" "}
@@ -66,7 +66,7 @@ export function ListsWidget14({ className }) {
             {/* end::Title */}
 
             {/* begin::Info */}
-            <div className="d-flex align-items-center py-lg-0 py-2">
+            {/* <div className="d-flex align-items-center py-lg-0 py-2">
               <div className="d-flex flex-column text-right">
                 <span className="text-dark-75 font-weight-bolder font-size-h4">
                   24,900
@@ -75,7 +75,7 @@ export function ListsWidget14({ className }) {
                   votes
                 </span>
               </div>
-            </div>
+            </div> */}
             {/* end::Info */}
           </div>
           {/* end::Item */}
@@ -101,10 +101,10 @@ export function ListsWidget14({ className }) {
                 href="#"
                 className="text-dark-75 font-weight-bolder text-hover-primary font-size-lg"
               >
-                Yellow Background
+                App is not Working
               </a>
               <span className="text-muted font-weight-bold font-size-sm my-1">
-                Strong abstract concept
+                Application having hug load time
               </span>
               <span className="text-muted font-weight-bold font-size-sm">
                 Created by:{" "}
@@ -116,7 +116,7 @@ export function ListsWidget14({ className }) {
             {/* end::Title */}
 
             {/* begin::Info */}
-            <div className="d-flex align-items-center py-lg-0 py-2">
+            {/* <div className="d-flex align-items-center py-lg-0 py-2">
               <div className="d-flex flex-column text-right">
                 <span className="text-dark-75 font-weight-bolder font-size-h4">
                   70,380
@@ -125,7 +125,7 @@ export function ListsWidget14({ className }) {
                   votes
                 </span>
               </div>
-            </div>
+            </div> */}
             {/* end::Info */}
           </div>
           {/* end: Item */}
@@ -166,7 +166,7 @@ export function ListsWidget14({ className }) {
             {/* end::Title */}
 
             {/* begin::Info */}
-            <div className="d-flex align-items-center py-lg-0 py-2">
+            {/* <div className="d-flex align-items-center py-lg-0 py-2">
               <div className="d-flex flex-column text-right">
                 <span className="text-dark-75 font-size-h4 font-weight-bolder">
                   7,200
@@ -175,7 +175,7 @@ export function ListsWidget14({ className }) {
                   votes
                 </span>
               </div>
-            </div>
+            </div> */}
             {/* end::Info */}
           </div>
           {/* end::Item */}
@@ -216,7 +216,7 @@ export function ListsWidget14({ className }) {
             {/* end::Title */}
 
             {/* begin::Info */}
-            <div className="d-flex align-items-center py-lg-0 py-2">
+            {/* <div className="d-flex align-items-center py-lg-0 py-2">
               <div className="d-flex flex-column text-right">
                 <span className="text-dark-75 font-size-h4 font-weight-bolder">
                   36,450
@@ -225,7 +225,7 @@ export function ListsWidget14({ className }) {
                   votes
                 </span>
               </div>
-            </div>
+            </div> */}
             {/* end::Info */}
           </div>
           {/* end::Item */}
@@ -264,7 +264,7 @@ export function ListsWidget14({ className }) {
             {/* end::Title */}
 
             {/* begin::Info */}
-            <div className="d-flex align-items-center py-lg-0 py-2">
+            {/* <div className="d-flex align-items-center py-lg-0 py-2">
               <div className="d-flex flex-column text-right">
                 <span className="text-dark-75 font-weight-bolder font-size-h4">
                   23,900
@@ -273,7 +273,7 @@ export function ListsWidget14({ className }) {
                   votes
                 </span>
               </div>
-            </div>
+            </div> */}
             {/* end::Info */}
           </div>
           {/* end::Item */}

@@ -135,11 +135,11 @@ function PersonaInformation(props) {
           <div className="row">
             <label className="col-xl-3"></label>
             <div className="col-lg-9 col-xl-6">
-              <h5 className="font-weight-bold mb-6">Customer Info</h5>
+              <h5 className="font-weight-bold mb-6">User Info</h5>
             </div>
           </div>
           <div className="form-group row">
-            <label className="col-xl-3 col-lg-3 col-form-label">Avatar</label>
+            <label className="col-xl-3 col-lg-3 col-form-label">Profile</label>
             <div className="col-lg-9 col-xl-6">
               <div
                 className="image-input image-input-outline"
@@ -237,7 +237,7 @@ function PersonaInformation(props) {
           </div>
           <div className="form-group row">
             <label className="col-xl-3 col-lg-3 col-form-label">
-              Company Name
+              Location
             </label>
             <div className="col-lg-9 col-xl-6">
               <input
@@ -248,8 +248,7 @@ function PersonaInformation(props) {
                 {...formik.getFieldProps("companyName")}
               />
               <span className="form-text text-muted">
-                If you want your invoices addressed to a company. Leave blank to
-                use your full name.
+                Current Address with city name and country as well
               </span>
             </div>
           </div>
@@ -314,7 +313,7 @@ function PersonaInformation(props) {
               </div>
             </div>
           </div>
-          <div className="form-group row">
+          {/* <div className="form-group row">
             <label className="col-xl-3 col-lg-3 col-form-label">
               Company Site
             </label>
@@ -334,7 +333,7 @@ function PersonaInformation(props) {
                 ) : null}
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* end::Body */}
       </div>

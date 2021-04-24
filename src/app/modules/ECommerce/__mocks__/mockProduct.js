@@ -5,13 +5,13 @@ export default function mockProducts(mock) {
   mock.onPost("api/products").reply(({ data }) => {
     const { product } = JSON.parse(data);
     const {
-      model = "",
-      manufacture = "",
-      modelYear = 2000,
-      mileage = 0,
+      weight = "",
+      count = "",
+      size = "",
+      date = "",
       description = "",
       color = "Black",
-      price = 1000,
+      price = "",
       condition = 0,
       status = 0,
       VINCode = ""
@@ -20,10 +20,10 @@ export default function mockProducts(mock) {
     const id = generateProductId();
     const newProduct = {
       id,
-      model,
-      manufacture,
-      modelYear,
-      mileage,
+      weight,
+      count,
+      size,
+      date,
       description,
       color,
       price,

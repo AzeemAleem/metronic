@@ -35,17 +35,17 @@ export function StatsWidget13({ className }) {
   }, [uiService]);
 
   useEffect(() => {
-    const element = document.getElementById("kt_stats_widget_12_chart");
+    const element = document.getElementById("kt_stats_widget_13_chart");
 
     if (!element) {
       return;
     }
 
     const options = getChartOption(layoutProps);
-    const chartnewUsers2 = new ApexCharts(element, options);
-    chartnewUsers2.render();
+    const chartnewUsers = new ApexCharts(element, options);
+    chartnewUsers.render();
     return function cleanUp() {
-      chartnewUsers2.destroy();
+      chartnewUsers.destroy();
     };
   }, [layoutProps]);
 
@@ -66,13 +66,13 @@ export function StatsWidget13({ className }) {
           </span>
           <div className="d-flex flex-column text-right">
             <span className="text-dark-75 font-weight-bolder font-size-h3">
-              1.5K
+              47
             </span>
-            <span className="text-muted font-weight-bold mt-2">Total Drivers</span>
+            <span className="text-muted font-weight-bold mt-2">Order in Queue</span>
           </div>
         </div>
         <div
-          id="kt_stats_widget_12_chart"
+          id="kt_stats_widget_13_chart"
           className="card-rounded-bottom"
           style={{ height: "150px" }}
         ></div>

@@ -5,6 +5,8 @@ import {
   ListsWidget9,
   StatsWidget11,
   StatsWidget12,
+  StatsWidget13,
+  StatsWidget14,
   ListsWidget1,
   AdvanceTablesWidget2,
   AdvanceTablesWidget4,
@@ -31,9 +33,17 @@ export function Demo1Dashboard() {
           />
           <StatsWidget12 className="card-stretch card-stretch-half gutter-b" />
         </div>
+        <div className="col-lg-6 col-xxl-4">
+          <StatsWidget13
+            className="card-stretch card-stretch-half gutter-b"
+            symbolShape="circle"
+            baseColor="success"
+          />
+          <StatsWidget14 className="card-stretch card-stretch-half gutter-b" />
+        </div>
         
 
-        <div className="col-lg-6 col-xxl-4 order-1 order-xxl-1">
+        {/* <div className="col-lg-6 col-xxl-4 order-1 order-xxl-1">
           <ListsWidget1 className="card-stretch gutter-b" />
         </div>
         <div className="col-xxl-8 order-2 order-xxl-1">
@@ -47,16 +57,16 @@ export function Demo1Dashboard() {
         </div>
         <div className="col-lg-12 col-xxl-4 order-1 order-xxl-2">
           <ListsWidget8 className="card-stretch gutter-b" />
-        </div>
+        </div> */}
       </div>
-      <div className="row">
+      {/* <div className="row">
         <div className="col-lg-4">
           <MixedWidget14 className="card-stretch gutter-b" />
         </div>
         <div className="col-lg-8">
           <AdvanceTablesWidget4 className="card-stretch gutter-b" />
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

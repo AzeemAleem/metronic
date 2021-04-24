@@ -1,8 +1,9 @@
 import React, { Suspense } from "react";
 import { Redirect, Switch } from "react-router-dom";
 import { CustomersPage } from "./customers/CustomersPage";
-import { ProductsPage } from "./products/ProductsPage";
-import { ProductEdit } from "./products/product-edit/ProductEdit";
+import { DriversPage } from "./drivers/DriversPage";
+import { OrdersPage } from "./products/OrdersPage";
+import { OrderEdit } from "./products/order-edit/OrderEdit";
 import { LayoutSplashScreen, ContentRoute } from "../../../../_metronic/layout";
 
 export default function eCommercePage() {
@@ -18,13 +19,15 @@ export default function eCommercePage() {
           />
         }
         <ContentRoute path="/e-commerce/customers" component={CustomersPage} />
-        <ContentRoute path="/e-commerce/products/new" component={ProductEdit} />
+        <ContentRoute path="/e-commerce/products/new" component={OrderEdit} />
         <ContentRoute
           path="/e-commerce/products/:id/edit"
-          component={ProductEdit}
+          component={OrderEdit}
         />
 
-        <ContentRoute path="/e-commerce/products" component={ProductsPage} />
+        <ContentRoute path="/e-commerce/drivers" component={DriversPage} />
+        <ContentRoute path="/e-commerce/products" component={OrdersPage} />
+
       </Switch>
     </Suspense>
   );

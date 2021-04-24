@@ -188,7 +188,7 @@ function AccountInformation(props) {
             </div>
           </div>
           {/* begin::Form Group */}
-          <div className="form-group row">
+          {/* <div className="form-group row">
             <label className="col-xl-3 col-lg-3 col-form-label">Language</label>
             <div className="col-lg-9 col-xl-6">
               <select
@@ -216,9 +216,9 @@ function AccountInformation(props) {
                 <option value="uk">Українська мова - Ukrainian</option>
               </select>
             </div>
-          </div>
+          </div> */}
           {/* begin::Form Group */}
-          <div className="form-group row">
+          {/* <div className="form-group row">
             <label className="col-xl-3 col-lg-3 col-form-label">
               Time Zone
             </label>
@@ -269,9 +269,9 @@ function AccountInformation(props) {
                 <option value="Astana">(GMT+06:00) Astana</option>
               </select>
             </div>
-          </div>
+          </div> */}
           {/* begin::Form Group */}
-          <div className="form-group row align-items-center">
+          {/* <div className="form-group row align-items-center">
             <label className="col-xl-3 col-lg-3 col-form-label">
               Communication
             </label>
@@ -308,18 +308,18 @@ function AccountInformation(props) {
                 </label>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* begin::Form Group */}
           <div className="separator separator-dashed my-5"></div>
           {/* begin::Form Group */}
-          <div className="row">
+          {/* <div className="row">
             <label className="col-xl-3"></label>
             <div className="col-lg-9 col-xl-6">
               <h5 className="font-weight-bold mb-6">Security:</h5>
             </div>
-          </div>
+          </div> */}
           {/* begin::Form Group */}
-          <div className="form-group row">
+          {/* <div className="form-group row">
             <label className="col-xl-3 col-lg-3 col-form-label">
               Login verification
             </label>
@@ -340,9 +340,9 @@ function AccountInformation(props) {
                 .
               </p>
             </div>
-          </div>
+          </div> */}
           {/* begin::Form Group */}
-          <div className="form-group row">
+          {/* <div className="form-group row">
             <label className="col-xl-3 col-lg-3 col-form-label">
               Password reset verification
             </label>
@@ -369,7 +369,7 @@ function AccountInformation(props) {
                 Deactivate your account ?
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* end::Form */}

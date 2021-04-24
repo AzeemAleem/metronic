@@ -5,11 +5,12 @@ export default function mockCustomer(mock) {
   mock.onPost("api/customers").reply(({ data }) => {
     const { customer } = JSON.parse(data);
     const {
-      firstName = "",
-      lastName = "",
+      name = "",
+      address = "",
+      phone='',
       email = "",
-      userName = "",
-      gender = "Female",
+      city = "",
+      country = "",
       status = 0,
       dateOfBbirth = "01/01/2019",
       ipAddress = "127.0.0.1",
@@ -19,11 +20,12 @@ export default function mockCustomer(mock) {
     const id = generateUserId();
     const newCustomer = {
       id,
-      firstName,
-      lastName,
+      name,
+      address,
+      phone,
       email,
-      userName,
-      gender,
+      city,
+      country,
       status,
       dateOfBbirth,
       ipAddress,

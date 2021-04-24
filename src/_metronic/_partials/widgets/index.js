@@ -21,6 +21,10 @@ export { ListsWidget14 } from "./lists/ListsWidget14";
 export { StatsWidget10 } from "./stats/StatsWidget10";
 export { StatsWidget11 } from "./stats/StatsWidget11";
 export { StatsWidget12 } from "./stats/StatsWidget12";
+export { StatsWidget13 } from "./stats/StatsWidget13";
+export { StatsWidget14 } from "./stats/StatsWidget14";
+
+
 
 // Base tables
 export { BaseTablesWidget1 } from "./base-tables/BaseTablesWidget1";
